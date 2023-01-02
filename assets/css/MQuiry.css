@@ -1,0 +1,185 @@
+@media screen and (min-width: 1200px) {
+    /* -- start menu burger style -- */
+    header .container .menu-burger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 992px !important;
+    }
+    
+    /* ---- supprimer le menu pc ---- */
+    header .container .menu {
+        display: none;
+    }
+
+
+    /* ----------- Contact ------------ */
+    main .contact .container {
+        width: 970px;
+    }
+    /* -- contact btn index page -- */
+    .contact-btn .container h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* ---- for All Container ---- */ 
+    .container {
+        width: 768px !important;
+    }
+    /* --- start header style --- */
+
+    header .container .logo-box h1 {
+        font-size: 25px;
+    }
+    
+    /* ------ Carrière style ------ */
+    .carrières .container .img-box {
+        width: 70%;
+    }
+
+
+    /* ------------- Contact ------------- */
+    main .contact .container {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* -- for all -- */
+    :root {
+        --size-primary: 16px;
+        --size-secondary: ;
+    }
+    .container {
+        width: 576px !important;
+    }
+
+    /* --- start header style --- */
+
+    header .container .logo-box h1 {
+        font-size: 21px;
+    }
+
+    /* --- start présentation style --- */
+    .presentation .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .presentation .container .info-box {
+        width: 100%;
+
+    }
+    
+    .presentation .container .img-box {
+        width: 45%;
+    }
+    /* --- end présentation style --- */
+
+    
+    /* ------ Carrière style ------ */
+    .carrières .container .img-box {
+        width: 100%;
+    }
+
+    
+    /* -------------- Contact -------------- */
+    .main-heading h2 {
+        font-size: 23px !important;
+    }
+    
+    .main-heading p {
+        font-size: 15px !important;
+        padding: 40px 10px 0;
+    }
+
+    main .contact .container {
+        width: 100%;
+    }
+
+    main .contact .container .content {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 20px;
+        row-gap: 40px;
+    }
+
+    main .contact .container .content .form {
+        width: 100%;
+    }
+
+    main .contact .container .content .info {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    /* -- contact btn index page -- */
+    .contact-btn .container h2 {
+        font-size: 25px;
+    }
+
+    .contact-btn .container .btn-contact-box a {
+        font-size: 14px;
+    }
+
+
+    /* -- Footer style -- */
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    footer .container .col-1, footer .container .col-2 {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100% !important;
+    }
+
+
+    /* ------- footer ------- */
+    footer .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    /* ------ Présentation style ------ */
+    .presentation .container .img-box {
+        width: 100%;
+    }
+
+
+    /* -- contact btn index page -- */
+    .contact-btn .container h2 {
+        font-size: 22px;
+    }
+
+    /* -- footer style -- */
+    
+    footer .container .col-2 {
+        justify-content: flex-start;
+        padding-left: 7px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+        /* -- contact btn index page -- */
+        .contact-btn .container h2 {
+            font-size: 20px;
+        }
+}
